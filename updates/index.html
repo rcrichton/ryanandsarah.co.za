@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Our blog
-permalink: /blog/
+title: Updates
+permalink: /updates/
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">The latest updates on our wedding planning</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -16,6 +16,10 @@ permalink: /blog/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        {{ post.excerpt }}
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+
       </li>
     {% endfor %}
   </ul>
