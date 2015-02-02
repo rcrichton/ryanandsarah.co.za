@@ -256,6 +256,14 @@
     width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
+@include media-query($on-palm) {
+    .home-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
 .circle-img {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
