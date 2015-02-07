@@ -251,7 +251,7 @@
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 1113,
+				"buffer_size": 1134,
 				"line_ending": "Unix"
 			}
 		},
@@ -272,19 +272,10 @@
 			}
 		},
 		{
-			"contents": "10.242.64.47",
-			"settings":
-			{
-				"buffer_size": 12,
-				"line_ending": "Unix",
-				"name": "10.242.64.47"
-			}
-		},
-		{
 			"file": "_sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 4661,
+				"buffer_size": 4860,
 				"line_ending": "Unix"
 			}
 		},
@@ -324,7 +315,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 641,
+				"buffer_size": 713,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 2746,
 				"line_ending": "Unix"
 			}
 		}
@@ -478,7 +477,8 @@
 	"expanded_folders":
 	[
 		"/home/ryan/git/ryanandsarah.co.za",
-		"/home/ryan/git/ryanandsarah.co.za/_posts"
+		"/home/ryan/git/ryanandsarah.co.za/_includes",
+		"/home/ryan/git/ryanandsarah.co.za/_sass"
 	],
 	"file_history":
 	[
@@ -629,6 +629,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"footer",
 			"site-header",
 			"Shadows Into Light",
 			"Dancing Script",
@@ -755,8 +756,7 @@
 			"db:",
 			"csd_lsd:load",
 			"| ",
-			"gedit.desktop",
-			"gedit"
+			"gedit.desktop"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -810,7 +810,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -819,15 +819,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1113,
+						"buffer_size": 1134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								1096,
+								1096
 							]
 						],
 						"settings":
@@ -870,7 +870,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -898,52 +898,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"auto_name": "10.242.64.47",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "_sass/_layout.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4661,
+						"buffer_size": 4860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								4724,
+								4724
 							]
 						],
 						"settings":
@@ -953,14 +925,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3893.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
@@ -984,11 +956,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "css/main.scss",
 					"semi_transient": false,
 					"settings":
@@ -1012,11 +984,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "_layouts/post.html",
 					"semi_transient": false,
 					"settings":
@@ -1042,11 +1014,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "_includes/footer.html",
 					"semi_transient": false,
 					"settings":
@@ -1072,24 +1044,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 641,
+						"buffer_size": 713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								641,
-								641
+								465,
+								465
 							]
 						],
 						"settings":
@@ -1100,7 +1072,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_sass/_base.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
