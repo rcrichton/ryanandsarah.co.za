@@ -1,17 +1,48 @@
 <footer class="site-footer">
 
+  <script type="text/javascript">
+    window.onload = function() {
+      updateCountdown();
+      setInterval(updateCountdown, 100);
+    }
+
+    function updateCountdown() {
+      var span = document.querySelector('#countdown');
+      var weddingDate = new Date(2016, 2, 12, 14, 30);
+      var now = Date.now();
+
+      var diff = weddingDate - now;
+      span.textContent = millisecondsToStr(diff);
+    }
+
+    function millisecondsToStr(ms) {
+      var days = Math.floor(ms / (1000 * 60 * 60 * 24));
+      ms -= days * (1000 * 60 * 60 * 24);
+      var hours = Math.floor(ms / (1000 * 60 * 60));
+      ms -= hours * (1000 * 60 * 60);
+      var mins = Math.floor(ms / (1000 * 60));
+      ms -= mins * (1000 * 60);
+      var seconds = Math.floor(ms / 1000);
+      ms -= seconds * 1000;
+
+      if (ms < 10) {
+        ms = '00' + ms;
+      } else if (ms < 100) {
+        ms = '0' + ms;
+      }
+
+      return days + ' days ' + hours + ':' + mins + ':' + seconds + '.' + ms;
+    }
+  </script>
+
   <div class="wrapper">
 
     <!--<h2 class="footer-heading">{{ site.title }}</h2>-->
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <!--
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-        -->
+        <span id="countdown" class="countdown"></span><br />
+        <span>until we are married!</span>
       </div>
 
       <div class="footer-col  footer-col-2">

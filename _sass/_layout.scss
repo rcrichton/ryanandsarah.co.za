@@ -2,7 +2,11 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    font-family: 'font-family: 'Dancing Script', cursive;', cursive;
+    font-size: 150%;
+    background-color: #f7f7f7;
+    background-image: none;
+    border-top: 5px solid #000298;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -11,7 +15,6 @@
 }
 
 .site-title {
-    font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -156,7 +159,10 @@
     }
 }
 
-
+.countdown {
+    font-size: x-large;
+    font-family: 'font-family: 'Dancing Script', cursive;', cursive;
+}
 
 /**
  * Page content
