@@ -21,8 +21,17 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    background-image: url("../images/subtle_grunge.png");
-    background-color: #fafafa;
+    //background-image: url("../images/subtle_grunge.png");
+    //background-color: #fafafa;
+
+    background: 
+        /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 1, 95, 0.05), 
+          rgba(0, 1, 95, 0.05)
+        ),
+        /* bottom, image */
+        url(../images/subtle_grunge.png);
 }
 
 
