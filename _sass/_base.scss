@@ -24,7 +24,9 @@ body {
     //background-image: url("../images/subtle_grunge.png");
     //background-color: #fafafa;
 
-    background: 
+    background:
+        url(../images/lovebirds_solid_white-04.png) 1050px 100px no-repeat,
+        url(../images/lovebirds_solid_white-03.png) -50px 300px no-repeat,
         /* top, transparent red, faked with gradient */ 
         linear-gradient(
           rgba(0, 1, 95, 0.05), 
@@ -32,6 +34,7 @@ body {
         ),
         /* bottom, image */
         url(../images/subtle_grunge.png);
+    background-size: 60%, 50%
 }
 
 
