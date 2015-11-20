@@ -17,7 +17,7 @@
 }
 
 .headroom {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .headroom-lg {
@@ -32,6 +32,10 @@
 .img-closeup {
   width: 50%;
   height: 50%;
+}
+
+article img {
+  max-width: 600px;
 }
 
 .iframe-container {

@@ -84,7 +84,7 @@ layout: default
     <div class="page-header">
       <h1>Gift Registry <small>much appreciated, not expected</small></h1>
     </div>
-    <p>The biggest gift is thaqt of your presence on our special day, however, if you would like to spil us we do have a gift registry available.</p>
+    <p>The biggest gift is that of your presence on our special day, however, if you would like to spoil us we do have a gift registry available.</p>
     <p>We are running an online gift registry with Yuppie Chef. Click to button below to find out more. If you would prefer to buy your own gift and bring it with you, then please feel free to do so.</p>
     <div class="row headroom footroom"><a href="http://yuppiechef.com/yc1157815" class="col-md-2 col-md-offset-5 btn btn-default btn-lg">Gift Registry</a></div>
 
@@ -101,12 +101,14 @@ layout: default
       <h1>Updates <small>what we have been up to</small></h1>
     </div>
     {% for post in site.posts %}
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <p>{{ post.excerpt }}</p>
-      <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+      <div class="col-md-6">
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+      </div>
     {% endfor %}
   </div>
 </div>
