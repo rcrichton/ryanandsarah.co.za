@@ -3,17 +3,23 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <header class="header">
+      <div class="container">
+        {% include header.html %}
       </div>
+    </header>
+
+    <div class="container">
+      {{ content }}
     </div>
 
-    {% include footer.html %}
+    <footer class="footer">
+      <div class="container">
+        {% include footer.html %}
+      </div>
+    </footer>
 
   </body>
 
