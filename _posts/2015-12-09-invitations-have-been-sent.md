@@ -11,7 +11,7 @@ hand delivering them to you shortly for those that live in Durbs.
 
 Here is a sneak peek of what to look out for.
 
-![Invitations](/images/invitations/20151207_211711.jpg)
+![Invitations](/images/invitations/invitations.jpg)
 
 We think that the invitation came out great and hope that you all like them!
 
