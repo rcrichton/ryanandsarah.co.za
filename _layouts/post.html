@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<!-- <div class="panel panel-default headroom">
-  <div class="panel-body"> -->
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
     <header>
       <h1>{{ page.title }}</h1>
       <p class="text-muted">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -10,6 +10,13 @@ layout: default
 
     <article>
       {{ content }}
+
+      <!-- separator -->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <img class="img-responsive" src="/images/lovebirds_solid_navy-03.png" alt="~~~~~~~">
+        </div>
+      </div>
 
       <!-- DISQUS config -->
       <div id="disqus_thread"></div>
@@ -29,5 +36,5 @@ layout: default
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </article>
-  <!-- </div>
-</div> -->
+  </div>
+</div>
